@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Status</title>
+</head>
+
+<style type="text/css">
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        Margin: 0;
+        padding: 0;
+        background-color: #fff;
+    }
+
+    table {
+        border-spacing: 0;
+    }
+
+    td {
+
+        padding: 0;
+    }
+
+    .news {
+        border: 2px solid #ccc;
+    }
+
+
+    img {
+        border: 0;
+    }
+
+    .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        padding-bottom: 60px;
+        background-color: #fff;
+    }
+
+    .webkit {
+        max-width: 600px;
+        background-color: #fff;
+    }
+
+    .outer {
+        Margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+    }
+
+
+    @media screen and (max-width: 600px) {}
+
+    @media screen and (max-width: 600px) {}
+
+    .main {
+        background-color: #fff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .two-columns {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+        /*padding: 35px 0 20px;*/
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+    .two-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .padding {
+        padding: 15px;
+    }
+
+    .two-columns .content {
+        font-size: 15px;
+
+    }
+
+    /*button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 36px;
+        border: 3px solid black;
+        background-color: black;
+        color: #fff;
+        margin: 0 auto;
+    }*/
+
+    .old__price {
+        text-decoration: line-through;
+    }
+</style>
+
+<body>
+    <!---Logo-->
+    <center class="wrapper">
+        <div class="webkit">
+            <table class="outer" align="center">
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0;">
+                            <tr>
+                                <td style="padding: 10px; text-align: center;">
+                                    <a href="https://www.ae.com/us/en" target="_blank"><img src="../assets/logo.jpg"
+                                            alt="" width="600" style="max-width: 100%;">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!----Order Status--->
+                <tr>
+                    <td style="border: 2px solid #ccc; width: 600;">
+                        <table width="100%" style="border-spacing: 0;">
+                            <p style="font-size: 15px; text-transform: uppercase; text-align: center;">
+                                <strong>catherine,
+                                    good news!</strong>
+                            </p>
+                            <p
+                                style="font-size:20px; line-height: 23px; padding: 5px 0 15px; text-transform: uppercase;  text-align: center; font-weight: 700;">
+                                part of your order is on<br>
+                                its way.
+                            </p>
+                        </table>
+
+                        <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                            style="padding-bottom: 15px; text-align: center;">
+                            <td>
+                                <p>Order Number:</p>
+                                <p style="text-decoration: underline; ">
+                                    <strong>#6135723381</strong>
+                                </p>
+                            </td>
+                        </table>
+                        <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                            style="padding-bottom: 15px; text-align: center;">
+                            <td>
+                                <p>Placed On:</p>
+                                <p><strong>September 25, 2018</strong></p>
+                            </td>
+                        </table>
+                        <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                            style="padding-bottom: 25px 15px; margin-left: 20px;">
+                            <td>
+                                <img src="../assets/shipped.jpg" alt=""><span style="text-transform: uppercase;">2 items
+                                    shipped</span>
+                            </td>
+                        </table>
+                        <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                            style="padding-bottom: 25px 15px; margin-left: 20px; ">
+                            <td>
+                                <img src="../assets/notyet.jpg" alt=""><span style="text-transform: uppercase;">1 item
+                                    not
+                                    shipped</span>
+                            </td>
+                        </table>
+                        <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                            style="padding-bottom: 25px 15px; margin-left: 20px; ">
+                            <td>
+                                <img src="../assets/multiple.jpg" alt=""><span
+                                    style="text-transform: uppercase;">multiple
+                                    shipments</span>
+                                <p style="font-size: 14px; ">We want you to get your
+                                    items ASAP so
+                                    we<br>broke
+                                    them up into multiple
+                                    segments</p>
+
+                            </td>
+                        </table>
+                </tr>
+                <!---Order Status End-->
+                </td>
+                </tr>
+                <!---Shipped Items------->
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; border-bottom: 2px solid black;">
+                    <td>
+                        <p><strong style="text-transform: uppercase; ">2 items shipped </strong></p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 25px 15px; margin-left: 20px;">
+                    <td>
+                        <img src="../assets/shipped.jpg" alt=""><span><strong
+                                style="text-transform: uppercase; ">shipped</strong></span>
+                        <p style="padding-left: 15px; margin-left: 10px;">May 14th, 2016</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 25px 15px; margin-left: 20px; ">
+                    <td>
+                        <img src="../assets/order.jpg" alt=""><span><strong style="text-transform: uppercase;">order
+                                tracking</strong></span>
+                        <p style="padding-left: 15px; margin-left: 10px;">Carrier:<span
+                                style="text-transform: uppercase;"> stardard</span></p>
+                        <p style="padding-left: 15px; margin-left: 10px;">Tracking ID: 1Z18VYW73975679</p>
+                    </td>
+                </table>
+                <table cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="center" width="300" height="40" bgcolor="#000"
+                            style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #ffffff; display: block;">
+                            <a href="#"
+                                style="font-size:16px; font-weight: bold; text-decoration: none; text-transform: uppercase; line-height:40px; width:100%; display:inline-block"><span
+                                    style="color: #FFFFFF">track order</span></a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 25px 15px; margin-left: 20px; ">
+                    <td>
+                        <img src="../assets/estimated.jpg" alt=""><span><strong
+                                style="text-transform: uppercase;">estimated</strong></span>
+                        <p style="padding-left: 15px; margin-left: 10px;">Shipping Speed: Standard (3-7 Business Days)
+                        </p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: center;">
+                    <td>
+                        <img src="../assets/item1.jpg" alt="">
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p><strong style="text-transform: uppercase;">ae ne(x)t level high-<br>waisted
+                                jegging</strong></p>
+                        <p style="text-decoration: line-through;">$69.95 USD<span><strong
+                                    style="color: red; text-decoration: none;">$39.95
+                                    USD</span></strong></p>
+                        <p style="color: #ccc; font-size: 12px;">Style: 1234-5678</p>
+                        <p style="color: #ccc; font-size: 12px;">Color: Faded Blue</p>
+                        <p style="color: #ccc; font-size: 12px;">Size: 4 Regular</p>
+                        <p style="color: #ccc; font-size: 12px;">Item Price: $29.95 USD</p>
+                        <p style="color: #ccc; font-size: 12px;">Qty: 1</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: center;">
+                    <td>
+                        <img src="../assets/item2.jpg" alt="">
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p><strong style="text-transform: uppercase;">aerie classic lace<br>bralette</strong></p>
+                        <p><strong>$29.95 USD</strong></p>
+                        <p style="color: #ccc; font-size: 12px;">Style: 1234-5678</p>
+                        <p style="color: #ccc; font-size: 12px;">Color: White</p>
+                        <p style="color: #ccc; font-size: 12px;">Size: S</p>
+                        <p style="color: #ccc; font-size: 12px;">Item Price: $22.95 USD</p>
+                        <p style="color: #ccc; font-size: 12px;">Qty: 1</p>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; border-bottom: 2px solid black;">
+                    <td>
+                        <p><strong style="text-transform: uppercase; ">1 item not yet shipped
+                            </strong></p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 25px 15px; margin-left: 20px;">
+                    <td>
+                        <img src="../assets/shipped.jpg" alt=""><span><strong
+                                style="text-transform: uppercase; ">preparing
+                                order</strong></span>
+                        <p style="padding-left: 15px; margin-left: 10px;">We've received your order and we're packing it
+                            up now.</p>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 25px 15px; margin-left: 20px; ">
+                    <td>
+                        <img src="../assets/estimated.jpg" alt=""><span><strong
+                                style="text-transform: uppercase;">estimated</strong></span>
+                        <p style="padding-left: 15px; margin-left: 10px;">Shipping Speed: Standard (3-7 Business Days)
+                        </p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: center;">
+                    <td>
+                        <img src="../assets/item3.jpg" alt="">
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p><strong style="text-transform: uppercase;">aeo pocket crew neck<br>t-shirt</strong></p>
+                        <p><strong>$29.95 USD</strong></p>
+                        <p style="color: #ccc; font-size: 12px;">Style: 1234-5678</p>
+                        <p style="color: #ccc; font-size: 12px;">Color: White</p>
+                        <p style="color: #ccc; font-size: 12px;">Size: S</p>
+                        <p style="color: #ccc; font-size: 12px;">Item Price: $22.95 USD</p>
+                        <p style="color: #ccc; font-size: 12px;">Qty: 1</p>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; border-bottom: 2px solid black;">
+                    <td>
+                        <p><strong style="text-transform: uppercase;">order summary
+                            </strong></p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p>Merchandise:</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: right;">
+                    <td>
+                        <p>$89.95 USD</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p>Shipping:</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: right;">
+                    <td>
+                        <p>$7.00 USD</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p>Duties & Taxes:</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: right;">
+                    <td>
+                        <p>Paid On Delivery</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p>Gift Card Ending: 1234</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: right;">
+                    <td>
+                        <p>-$10.00 USD</p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; ">
+                    <td>
+                        <p style="text-transform: uppercase;"><strong>order total:</strong></p>
+                    </td>
+                </table>
+                <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-bottom: 15px; text-align: right;">
+                    <td>
+                        <p style="text-transform: uppercase;"><strong>$86.85 usd</strong></p>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0">
+                    <td>
+                        <p>You may see a pending change after placing<br> your
+                            order.
+                            Your credit card won't be
+                            charged<br> until the entire order ships.</p>
+                        <p style="padding-top: 15px;">Payment Info</p>
+                    </td>
+                </table>
+
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="border: 3px solid #ccc;">
+                    <td style=" padding: 15px 0 0 15px;">
+                        <img src="../assets/visa.jpg" alt="">
+                        <p>Ending: 1234</p>
+                    </td>
+                    <td style="padding-top: 15px;">
+                        <p>Brandon Smith</p>
+                        <p>123 House Street</p>
+                        <p>Pittsburgh, PA 15203</p>
+                        <p>United States</p>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0">
+                    <td>
+                        <p style="padding-top: 15px;">Shipping Address</p>
+                    </td>
+                </table>
+
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="border: 3px solid #ccc;">
+
+                    <td style="padding: 15px 0 0 15px;">
+                        <p>Brandon Smith</p>
+                        <p>123 House Street</p>
+                        <p>Pittsburgh, PA 15203</p>
+                        <p>United States</p>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0">
+                    <td>
+                        <p style="padding-top: 15px;">Easy Returns*</p>
+                    </td>
+                </table>
+
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="border: 3px solid #ccc;">
+
+                    <td style="padding: 15px 0 0 35px;">
+                        <img src="../assets/preparing.jpg" alt="">
+                        <p><strong style="text-transform: uppercase; ">ship your items back</strong></p>
+                        <a href="#">
+                            <p style="text-decoration: underline;">get a return label</p>
+                        </a>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0">
+                    <td>
+                        <p style="padding-top: 15px;">Get info about returns. See our <a href="#"><span
+                                    style="text-decoration: underline;">Return Policy</span></p></a>
+                    </td>
+                </table>
+                <table class="left-column" width="100%" align="left" cellspacing="0" cellpadding="0"
+                    style="padding-top: 15px;">
+                    <td>
+                        <p style="padding-top: 15px;">Want to chat? We're here for you!</p>
+                    </td>
+                </table>
+                <table class="left-column" width="33.3%" align="left" cellspacing="0" cellpadding="0"
+                    style=" text-align: center; border: 2px solid #ccc;">
+                    <td>
+                        <img src="../assets/call.jpg" alt="">
+                        <p>
+                            <strong>+1 (888) 232-4535</strong>
+                        </p>
+                    </td>
+                </table>
+                <table class="left-column" width="33.3%" align="left" cellspacing="0" cellpadding="0"
+                    style=" text-align: center; border: 2px solid #ccc;">
+                    <td>
+                        <img src="../assets/email.jpg" alt="">
+                        <p>
+                            <strong style="text-transform:uppercase;">email us</strong>
+                        </p>
+                    </td>
+                </table>
+                <table class="left-column" width="33.3%" align="left" cellspacing="0" cellpadding="0"
+                    style=" text-align: center; border: 2px solid #ccc;">
+                    <td>
+                        <img src="../assets/chat.jpg" alt="">
+                        <p>
+                            <strong style="text-transform:uppercase;">live chat</strong><br>
+                        <p style="color: #bbb;">8 a.m. - 12 a.m. ET</p>
+                        </p>
+                    </td>
+                </table>
+                <table class="center-column" width="100%" cellspacing="0" cellpadding="0"
+                    style="padding-top: 15px; text-align: center;">
+                    <td>
+                        <p style="padding-top: 15px; color: #bbb; font-size: 12px;">*For European Union customers;
+                            please access your 14
+                            day</p><br>
+                        <a href="#">
+                            <p style="text-decoration: underline; color: #bbb; font-size: 12px;">Statutory Right of
+                                Return</p><br>
+                        </a>
+                        <a href="#">
+                            <p style="text-decoration: underline; color: #bbb; font-size: 12px;">Privacy Notices |
+                                Sign Up For Email </p>
+                        </a>
+                        <p style="color: #bbb; font-size: 12px;">Add<a href="mailto:email@example.com"
+                                style="text-decoration: none; color: #bbb;"> [ae@e.ae.com] </a> to your address book.
+                        </p>
+                        <p style="color: #bbb; font-size: 12px;">Our mailing address: 77 Hot Metal Street, Pittsburgh,
+                            PA 15203</p>
+                    </td>
+                </table>
+
+
+            </table>
+
+        </div>
+    </center>
+
+</body>
+
+</html>
